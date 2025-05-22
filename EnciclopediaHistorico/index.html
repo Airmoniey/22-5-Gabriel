@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciclopédia Histórica</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            margin: 40px 0 20px;
+            color: #2980b9;
+        }
+        
+        .introducao {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .curiosidade {
+            display: flex;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .curiosidade img {
+            width: 200px;
+            object-fit: cover;
+        }
+        
+        .texto-curiosidade {
+            padding: 20px;
+        }
+        
+        .titulo-curiosidade {
+            color: #e74c3c;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        
+        @media (max-width: 768px) {
+            .curiosidade {
+                flex-direction: column;
+            }
+            
+            .curiosidade img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Enciclopédia Histórica</h1>
+    
+    <!-- Brasil Imperial -->
+    <section>
+        <h2>Brasil Imperial (1822-1889)</h2>
+        
+        <div class="introducao">
+            <p>O período imperial brasileiro representou a consolidação da nação após a independência de Portugal. Governado por D. Pedro I (1822-1831) e D. Pedro II (1840-1889), com o interregno do Período Regencial, foi marcado por conflitos internos, desenvolvimento institucional e a gradual abolição da escravatura. A monarquia constitucional brasileira se destacou como uma experiência única nas Américas, combinando tradição e modernidade em um contexto de transformações globais.</p>
+        </div>
+        
+        <div class="curiosidade">
+            <img src="./imagens/imperiobrasil.png" alt="D. Pedro II e a corte imperial">
+            <div class="texto-curiosidade">
+                <h3 class="titulo-curiosidade">O Cientista Coroado</h3>
+                <p>D. Pedro II mantinha correspondência com grandes mentes como Darwin e Pasteur, financiou expedições científicas e possuía um laboratório no Paço de São Cristóvão. Seu apoio à ciência foi crucial para a criação de instituições como o Observatório Nacional e o Museu Nacional. Durante seu exílio na Europa após a Proclamação da República, continuou seus estudos científicos, sendo membro de diversas academias europeias.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bitcoin -->
+    <section>
+        <h2>Revolução do Bitcoin (2009-presente)</h2>
+        
+        <div class="introducao">
+            <p>O Bitcoin surgiu em 2009 como resposta à crise financeira global, oferecendo um sistema monetário descentralizado baseado em criptografia. Criado pelo misterioso Satoshi Nakamoto, introduziu a tecnologia blockchain - um livro-razão público e imutável. Sua valorização exponencial e adoção crescente desafiam os sistemas financeiros tradicionais, gerando debates sobre o futuro do dinheiro, regulação e soberania financeira.</p>
+        </div>
+        
+        <div class="curiosidade">
+            <img src="./imagens/bitcoin.png" alt="Evolução do Bitcoin">
+            <div class="texto-curiosidade">
+                <h3 class="titulo-curiosidade">As Pizzas Mais Caras da História</h3>
+                <p>Em 22/05/2010, Laszlo Hanyecz pagou 10.000 BTC (hoje valendo milhões) por duas pizzas. Esse "Bitcoin Pizza Day" marca a primeira transação comercial com criptomoeda. Curiosamente, o próprio Hanyecz ajudou a desenvolver o primeiro software de mineração GPU para Bitcoin, tornando a mineração mais eficiente antes mesmo de sua famosa compra.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Guerra do Paraguai -->
+    <section>
+        <h2>Guerra do Paraguai (1864-1870)</h2>
+        
+        <div class="introducao">
+            <p>O maior conflito armado da América do Sul começou com a invasão paraguaia do Mato Grosso em 1864. A Tríplice Aliança (Brasil, Argentina e Uruguai) enfrentou o ditador Solano López em batalhas épicas como Humaitá e Riachuelo. O conflito deixou o Paraguai devastado - sua população masculina adulta foi reduzida em cerca de 90% - enquanto os vencedores enfrentaram crises econômicas e políticas decorrentes dos custos da guerra.</p>
+        </div>
+        
+        <div class="curiosidade">
+            <img src="./imagens/paraguai.png" alt="Batalha da Guerra do Paraguai">
+            <div class="texto-curiosidade">
+                <h3 class="titulo-curiosidade">O Preço Demográfico</h3>
+                <p>O Paraguai perdeu cerca de 60-70% de sua população, restando apenas 28.000 homens adultos em 1870. Esta catástrofe levou a medidas extraordinárias como a "Lei de Repovoamento" que estabeleceu a poligamia temporária. No Brasil, a guerra acelerou o fim da escravidão, pois muitos escravos receberam alforria por servir no exército, fortalecendo o movimento abolicionista.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
